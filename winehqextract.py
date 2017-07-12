@@ -4,8 +4,18 @@ import re #regular expressions
 import requests
 from bs4 import BeautifulSoup
 import argparse
+import sys
 
-posturl = "https://appdb.winehq.org/objectManager.php"
+def ProcessGameName(game):
+	#game = game.lower()
+	game = game.replace("&","and")
+	game = game.replace(".","")
+	game = game.replace(" :",":")
+	game = re.sub("\(.*\)","",game)
+	game = game.replace("  "," ")
+	game = game.strip()
+	return game
+
 
 def ExtractGameList(html):
 	GameList = []
@@ -16,13 +26,7 @@ def ExtractGameList(html):
 		cells = row.findAll("td")
 		#print("*********************")
 		game = cells[0].findAll("a")[0].text
-		game = game.lower()
-		game = game.replace("&","and")
-		game = game.replace(".","")
-		game = game.replace(" :",":")
-		game = re.sub("\(.*\)","",game)
-		game = game.replace("  "," ")
-		game = game.strip()
+		game = ProcessGameName(game)
 		GameList.append(game)
 		
 	GameList.pop(0)
@@ -35,6 +39,8 @@ def ExtractNumberOfPages(html):
 	return 0
 
 def GetWineHqList(ratingsList):
+	posturl = "https://appdb.winehq.org/objectManager.php"
+
 	getparams = {
 		"bIsQueue": "false",
 		"bIsRejected": "false",
@@ -92,6 +98,7 @@ parser.add_argument('-g','--gold', action="store_true", help='Extract games with
 parser.add_argument('-s','--silver', action="store_true", help='Extract games with a rating of Silver')
 parser.add_argument('-b','--bronze', action="store_true", help='Extract games with a rating of Bronze')
 parser.add_argument('-x','--garbage', action="store_true", help='Extract games with a rating of Garbage')
+
 args = parser.parse_args()
 
 RatingsList = []
@@ -109,11 +116,17 @@ if (args.garbage):
 
 if (not RatingsList):
 	print("You must specify at least one of [-p][-g][-s][-b][-x]")
-else:
-	#print(RatingsList)
-	Games = GetWineHqList(RatingsList)
-	for rating in RatingsList:
-		print("Games with rating", rating)
-		for game in Games[rating]:
+	sys.exit(0)
+
+#print(RatingsList)
+Games = GetWineHqList(RatingsList)
+numratings = len(RatingsList)
+for rating in RatingsList:
+	if (numratings > 1):
+		print("# Games with rating", rating)
+	for game in Games[rating]:
+		if (numratings > 1):
 			print("\t",game)
-		print ""
+		else:
+			print(game)
+	print("")
