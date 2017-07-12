@@ -23,12 +23,15 @@ The first thing you have to do after downloading the .py files from github is to
 Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games, like in the following images.
 
 Login to steam:
+
 ![Login to steam through your browser](login.png "Login")
 
 Hover the mouse over [Your name] in the top banner and then go to "Games"
+
 ![Click on your name and then on Games](Games.png "Games")
 
 Go to "All Games"
+
 ![Click on All games](AllGames.png "AllGames")
 
 You should see all your games in there. 
