@@ -21,8 +21,14 @@ All three tools are easy to modify or extend to suit your needs.
 The first thing you have to do after downloading the .py files from github is to open your browser and login to http://steampowered.com/ using your username and password. This is because unfortunately I don't (yet) know how to log-in automatically, since steam uses some weird authentication with phones and whatnot. So maybe in the future this step will be skipped, but for now the solution is to download the page yourself.
 
 Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games, like in the following images.
+
+Login to steam:
 ![Login to steam through your browser](login.png "Login")
+
+Hover the mouse over [Your name] in the top banner and then go to "Games"
 ![Click on your name and then on Games](Games.png "Games")
+
+Go to "All Games"
 ![Click on All games](AllGames.png "AllGames")
 
 You should see all your games in there. 
