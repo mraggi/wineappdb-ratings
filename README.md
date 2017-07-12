@@ -1,12 +1,16 @@
 # Description
-A short python script to scrape all games with a given rating from AppDB at winehq.org and compare them to your list of games from steam. You are free to use it however you see fit. However, consider donating to the good guys over at winehq.org for all their great work at https://www.winehq.org/donate
+A short python script to scrape all games with a given rating from AppDB at winehq.org and compare them to your list of games from steam. 
+
+You are free to use these scripts however you see fit.
+
+However, if you do use them, consider donating to the good guys over at https://www.winehq.org for all their great work (at https://www.winehq.org/donate).
 
 # Usage
 First, make sure you have python3 and Beautiful Soup and lxml installed. They probably already come with your python3 installation.
 
 We provide two tools and a third one that uses both to compare results: 
 1. `winehqextract.py` downloads and prints games with different ratings.
-2. `steamextract.py` extracts game information from steampowered.com
+2. `steamextract.py` extracts game information from an already downloaded website from steampowered.com
 3. `winesteamcompare.py` uses both of the above to generate a list of the games you own on steam that can be played using wine (either gold or platinum rating).
 
 All three tools are easy to modify or extend to suit your needs.
@@ -52,4 +56,11 @@ Now, just run
 ```
 
 # Future plans
-I'm working on scraping your steam games and classify them according to wine ratings.
+
+* Support your wishlist too, not only games you own.
+* Find a way to filter games that already have a native linux client.
+* Making a firefox/chromium extension that tells you the wine AppDB ratings of any game you look at. Help in this area would be greatly appreciated.
+* Some exception handling. Right now if something goes wrong, you just see the traceback instead of a useful message advising on what went wrong.
+
+# Acknowledgements
+This scripts were written in an afternoon by Miguel Raggi (mraggi@gmail.com) in order to learn some web scraping. They might contain bugs, assume things you can't, and so on. Please report any problems you find. The real work was done by the people at winehq.org, who mantain the appDB.
