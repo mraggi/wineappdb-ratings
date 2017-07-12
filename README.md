@@ -6,7 +6,9 @@ You are free to use these scripts however you see fit.
 However, if you do use them, consider donating to the good guys over at https://www.winehq.org for all their great work (at https://www.winehq.org/donate).
 
 # Usage
-First, make sure you have python3 and Beautiful Soup and lxml installed. They probably already come with your python3 installation.
+First, make sure you have python3 and Beautiful Soup and lxml installed. They probably already come with your python3 
+installation. If not, type in something like `sudo pacman -S python3-lxml python3-beautifulsoup4` (or the corresponding thing 
+with apt-get).
 
 We provide two tools and a third one that uses both to compare results: 
 1. `winehqextract.py` downloads and prints games with different ratings.
@@ -15,10 +17,15 @@ We provide two tools and a third one that uses both to compare results:
 
 All three tools are easy to modify or extend to suit your needs.
 
-## If you want to know which or your steam games can be played using wine
+## If you want to know which of your steam games can be played using wine
 The first thing you have to do is open your browser and login to http://steampowered.com/ using your username and password. This is because unfortunately I don't (yet) know how to log-in automatically, since steam uses some weird authentication with phones and whatnot. So maybe in the future this step will be skipped, but for now the solution is to download the page yourself.
 
-Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games. You should see all your games in there. Now save the page with the file name `MySteamGames.html` in the same folder you downloaded the python scripts This file name is important, since it's the file name winesteamcompare expects.
+Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games, like in the following images.
+![Login to steam through your browser](login.png "Login")
+![Click on your name and then on Games](Games.png "Games")
+![Click on All games](AllGames.png "AllGames")
+
+You should see all your games in there. Now save the page with the file name `MySteamGames.html` in the same folder you downloaded the python scripts This file name is important, since it's the file name winesteamcompare expects.
 
 Now, just run
 
