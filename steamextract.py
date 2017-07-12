@@ -39,4 +39,9 @@ def SteamExtract(filename):
 			print(ProcessGameName(game))
 		i += 1
 
-SteamExtract("MySteamGames.html")
+parser = argparse.ArgumentParser(description="Extract information from the html file with steam games and print them out to stdout")
+parser.add_argument("input", help='The name of the html file')
+
+args = parser.parse_args()
+if (args.input):
+	SteamExtract(args.input)
