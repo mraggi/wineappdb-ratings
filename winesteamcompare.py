@@ -29,6 +29,8 @@ if (not os.path.isfile("gold.txt")):
 else:
 	print("\tUsing already found file! If you wish to recover again, rename or delete gold.txt")
 
+
+
 print("Getting list of your steam games... ",)
 if (not os.path.isfile("steamgames.txt")):
 	os.system("python3 steamextract.py MySteamGames.html > steamgames.txt")
@@ -49,6 +51,22 @@ with open("gold.txt", 'r') as myfile:
 		golds = txt.split("\n")
 		for game in golds:
 			Games[Canonicalize(game)] = "Gold"
+
+# Uncomment the following to include silver games!
+
+#print("Getting silver list... ",)
+#if (not os.path.isfile("silver.txt")):
+	#os.system("python3 winehqextract.py -s > silver.txt")
+	#print("\tDone!")
+#else:
+	#print("\tUsing already found file! If you wish to recover again, rename or delete gold.txt")
+
+#with open("silver.txt", 'r') as myfile:
+		#txt = myfile.read()
+		#golds = txt.split("\n")
+		#for game in golds:
+			#Games[Canonicalize(game)] = "Silver"
+
 
 with open("steamgames.txt", 'r') as myfile:
 		txt = myfile.read()
