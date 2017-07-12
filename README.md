@@ -16,7 +16,13 @@ The first thing you have to do is open your browser and login to http://steampow
 
 Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games. You should see all your games in there. Now save the page with the file name `MySteamGames.html` in the same folder you downloaded the python scripts This file name is important, since it's the file name winesteamcompare expects.
 
+Now, just run
 
+```bash
+	python3 winesteamcompare.py
+```
+
+and voilà, after a while you'll get a list of games and their respective ratings. Let me know if you find an error, like a game that is in your steam games and is marked either platinum or gold in the appDB but isn't showing.
 
 ## If you just want to use the wine extractor
 Just download winehqextract.py an run the python script with options [-pgsbx] to get a list of Platinum, Gold, Silver, Bronze and Garbage, either with `python3 winehqextract.py -h` or `chmod +x winehqextract.py` and then `./winehqextract.py --help`. 
@@ -25,11 +31,25 @@ These commands will print a list of options. The options are straightforward: `-
 
 For example, the following command finds all games with a rating of platinum or gold and prints them out.
 
-```
+```bash
 	./winehqextract.py -pg
 ```
 
 Bear in mind that the command may take a while, since it has to download all pages from the appDB, 
+
+## If you just want a list of all your steam games
+
+Finally, if you only need a list of your steam games printed to the console (for some reason), do the following:
+
+The first thing you have to do is open your browser and login to http://steampowered.com/ using your username and password. This is because unfortunately I don't (yet) know how to log-in automatically, since steam uses some weird authentication with phones and whatnot. So maybe in the future this step will be skipped, but for now the solution is to download the page yourself.
+
+Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games. You should see all your games in there. Now save the page in the same directory as the scripts. Suppose you named it `banana.html`
+
+Now, just run
+
+```bash
+	python3 steamextract.py banana.html
+```
 
 # Future plans
 I'm working on scraping your steam games and classify them according to wine ratings.
