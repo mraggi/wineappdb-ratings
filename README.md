@@ -20,15 +20,19 @@ All three tools are easy to modify or extend to suit your needs.
 ## If you want to know which of your steam games can be played using wine
 The first thing you have to do after downloading the .py files from github is to open your browser and login to http://steampowered.com/ using your username and password. This is because unfortunately I don't (yet) know how to log-in automatically, since steam uses some weird authentication with phones and whatnot. So maybe in the future this step will be skipped, but for now the solution is to download the page yourself.
 
-Log-in to steam through your browser, then go to [Your User Name] -> Games -> All Games, like in the following images.
+Log-in to steam through your browser, then go to [Your User Name] -> Profile -> Games -> All Games, like in the following images.
 
 Login to steam:
 
 ![Login to steam through your browser](login.png "Login")
 
-Hover the mouse over [Your name] in the top banner and then go to "Games"
+Hover the mouse over [Your name] in the top banner and then go to "Profile"
 
-![Click on your name and then on Games](Games.png "Games")
+![Hover over name and then on Profile](profile.png "Profile")
+
+Go to "Games" in the right panel
+
+![Go Profile](Games.png "Games")
 
 Go to "All Games"
 
