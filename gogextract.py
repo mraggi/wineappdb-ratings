@@ -66,25 +66,36 @@ def ProcessGameName(game):
 	game = game.strip()
 	return game
 
-def SteamExtract(filename):
-	with open(filename, 'r') as myfile:
-		txt = myfile.read()
-
-	#soup = BeautifulSoup(txt,"lxml")
-
-	bla = txt.split("\"name\":")
+def ExtractGames(txt):
+	bla = txt.split(",\"title\":")
 	#print(len(bla))
-	i = 0
+	Games = []
+	first = True
 	for x in bla:
-		if (i >= 2):
-			x = x.split("\"")
-			game = x[1]
-			print(ProcessGameName(game))
-		i += 1
+		if first:
+			first = False
+			continue
+		x = x.split("\"")
+		game = x[1]
+		Games.append(ProcessGameName(game))
+		#print(ProcessGameName(game))
+		
+	return Games
 
-parser = argparse.ArgumentParser(description="Extract information from the html file with steam games and print them out to stdout")
-parser.add_argument("input", help='The name of the html file')
+def GogExtract():
+	gogurl = "https://www.gog.com/games/ajax/filtered?mediaType=game&sort=bestselling&page="
+	#getparams = {"sort":"bestselling","page":1,"mediaType":"game"}
+	Games = []
+	
+	for page in range(1,43): #uhh... change 43 for something
+		#getparams["page"] = page
+		r = requests.get(gogurl+str(page))
+		html = r.text
+		#print("Page",page," has html:",r.json())
+		Games.extend(ExtractGames(html))
+	return Games
+	
 
-args = parser.parse_args()
-if (args.input):
-	SteamExtract(args.input)
+A = GogExtract()
+for a in A:
+	print(a)
