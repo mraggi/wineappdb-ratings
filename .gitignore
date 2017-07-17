@@ -1,3 +1,6 @@
 build
 *.txt
 *.html
+!goggames.txt
+!platinum.txt
+!gold.txt

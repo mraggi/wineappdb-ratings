@@ -4,7 +4,6 @@ import re #regular expressions
 import subprocess
 import os
 import sys
-Games = {} #empty dictionary
 
 def Canonicalize(s):
 	S = s.lower()
@@ -18,6 +17,9 @@ def Canonicalize(s):
 	S = S.replace("!","")
 	S = S.replace("?","")
 	return S
+
+Games = {} #empty dictionary
+
 
 print("Getting gold list... ",)
 if (not os.path.isfile("gold.txt")):
@@ -47,21 +49,19 @@ with open("platinum.txt", 'r') as myfile:
 			Games[Canonicalize(game)] = "Platinum"
 
 
-print("Getting list of your steam games... ",)
-if (not os.path.isfile("steamgames.txt")):
-	os.system("python3 steamextract.py MySteamGames.html > steamgames.txt")
+print("Getting list of all gog games... ",)
+if (not os.path.isfile("goggames.txt")):
+	os.system("python3 gogextract.py > goggames.txt")
 	print("\tDone!")
 else:
-	print("\tUsing already found file! If you wish to recover again, rename or delete steamgames.txt")
+	print("\tUsing already found file! If you wish to recover again, rename or delete goggames.txt")
 
 
-
-
-with open("steamgames.txt", 'r') as myfile:
+with open("goggames.txt", 'r') as myfile:
 		txt = myfile.read()
 		steams = txt.split("\n")
 		print("")
-		print("You have",len(steams),"games")
+		print("GOG has ",len(steams),"games")
 		numwine = 0
 		for game in steams:
 			if (not game):
