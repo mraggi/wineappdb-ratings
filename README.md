@@ -10,12 +10,14 @@ First, make sure you have python3 and Beautiful Soup and lxml installed. They pr
 installation. If not, type in something like `sudo pacman -S python3-lxml python3-beautifulsoup4` (or the corresponding thing 
 with apt-get).
 
-We provide two tools and a third one that uses both to compare results: 
+We provide three tools, and two more files that uses both to compare results: 
 1. `winehqextract.py` downloads and prints games with different ratings.
 2. `steamextract.py` extracts game information from an already downloaded website from steampowered.com
-3. `winesteamcompare.py` uses both of the above to generate a list of the games you own on steam that can be played using wine (either gold or platinum rating).
+3. `gogextract.py` downloads the list of all available games at GOG.com (not just the ones you own)
+4. `winesteamcompare.py` uses the wine appDB scraper and the steam extractor to generate a list of the games you own on steam that can be played using wine (either gold or platinum rating).
+5. `winegogcompare.py` uses the winehqextract script and the gogextract script to make a list of all gog games that can be played using wine (not just the ones you own).
 
-All three tools are easy to modify or extend to suit your needs.
+All tools are easy to modify or extend to suit your needs.
 
 ## If you want to know which of your steam games can be played using wine
 The first thing you have to do after downloading the .py files from github is to open your browser and login to http://steampowered.com/ using your username and password. This is because unfortunately I don't (yet) know how to log-in automatically, since steam uses some weird authentication with phones and whatnot. So maybe in the future this step will be skipped, but for now the solution is to download the page yourself.
