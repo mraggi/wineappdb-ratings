@@ -71,7 +71,7 @@ def GetWineHqList(ratingsList):
 
 	#getpluspost = {**getparams,**postparams}
 	getpluspost = dict(getparams)
-	getplustpost.update(postparams)
+	getpluspost.update(postparams)
 	
 	Games = {}
 	for rating in RatingsList:
