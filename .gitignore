@@ -1,6 +1,10 @@
 build
 *.txt
 *.html
+*.rsv
 !goggames.txt
 !platinum.txt
 !gold.txt
+!silver.txt
+!bronze.txt
+!garbage.txt
