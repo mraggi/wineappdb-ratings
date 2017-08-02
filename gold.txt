@@ -28,7 +28,6 @@ Afterfall Insanity
 Age of Decadence
 Age of Empires
 Age of Empires II
-Age Of Empires II: HD Edition
 Age of Empires III
 Age of Mythology
 Age of Wonders
@@ -75,8 +74,8 @@ Anstoss 2007
 Aqua Kitty: Milk Mine Defender
 Aquanox
 Arabica Gold
-ArcaniA: Gothic 4
 Arcanum
+Archeage
 Arcomage
 ArkLight
 Armageddon empires
@@ -150,6 +149,7 @@ Bonnie's Bookstore Deluxe
 Bookworm Adventures
 Bootsmanoever
 Borderlands 2
+BoulderDash 30th Anniversary Edition
 Bounty Bay Online
 Brain Exercise with Dr Kawashima
 Brave Dwarves II
@@ -207,6 +207,7 @@ Chocolatier 2: Secret Ingredients
 Chocolatier: Decadence by Design
 Cities in Motion 2
 Cities XL
+Cities: Skylines
 City Life
 Civil War: Secret Missions
 Clannad
@@ -255,6 +256,7 @@ Crusader Kings
 Crusader Kings II
 Crusaders of Might and Magic
 Cryostasis
+Crysis
 Crysis 2
 CSI - 3 Dimensions of Murder
 CSI: NY
@@ -394,7 +396,6 @@ Emperor: Battle for Dune
 Empire Earth
 Enclave
 Endless Space
-Endless Space 2
 Enslaved: Odyssey to the West
 Entomorph: Plague of The Darkfall
 Enzai
@@ -410,6 +411,7 @@ Europa 1400: The Guild
 Europa Universalis III
 Europa Universalis IV
 Europa Universalis Rome
+EverQuest
 EverQuest II
 Everquest Next: Landmark
 Evidence, The last Ritual
@@ -433,6 +435,7 @@ Falcon 4 BMS
 Falcon 40 Allied force
 Fallen Earth
 Fallout Trilogy
+Fallout: New Vegas
 Family Feud
 Family Guy Back to the Multiverse
 Fantasy Grounds
@@ -506,6 +509,7 @@ Gods and Generals
 Gold and Glory: The Road to El Dorado
 Gothic
 Gothic 3
+Gothic II
 Grand Prix Manager 2
 Grand Theft Auto III
 Grand Theft Auto IV
@@ -555,6 +559,7 @@ Heretic Kingdoms - The Inquisition
 Hero Lab
 Heroes Chronicles: Masters of the Elements
 Heroes of Might and Magic III
+Heroes of Might and Magic III HD
 Heroes of Might and Magic IV
 Heroes of Might and Magic V
 Heroes of the Storm
@@ -570,12 +575,12 @@ Hook Up 3D
 Horizon
 Hostile Waters
 Hotel Giant
-House of the Dying Sun
 How to Survive
 Hoyle Puzzle and Board Games
 Hoyle Puzzle Games 2005
 Hugo 5
 hugo 7 in the jungle
+Hybrid Wars
 Hydro Thunder
 Hylics
 Hyperdimension Neptunia Re;Birth 1
@@ -588,6 +593,7 @@ iBomber Defense
 Icewind Dale
 Icewind Dale II
 Ignition
+IL-2 Sturmovik Series
 iM1A2 Abrams
 Immortal Cities: Children of the Nile
 Imperium Civitas
@@ -689,7 +695,6 @@ Mafia II
 Mages of Mystralia
 Magic Match
 Magic: The Gathering - Battlegrounds
-Magic: The Gathering Online
 Magical Drop V
 Magicka
 Mahjong Escape - Ancient Japan
@@ -729,7 +734,6 @@ Millennium soldier: Expendable
 Minecraft
 Mini Motor Racing EVO
 Minimum
-minion masters
 Mirror's Edge
 Mission Schatztaucher
 Mobile Forces
@@ -749,6 +753,7 @@ Mortal Kombat Arcade Kollection
 MotherLoad Goldium Edition
 Moto GP 13
 Moto Racer
+Moto Racer 2
 MotoGP 3
 MotorM4X: Offroad Extreme
 mount your friends
@@ -781,11 +786,11 @@ Need For Speed Hot Pursuit 2010
 Need for Speed II
 Need for Speed Most Wanted
 Need for Speed: Most Wanted
+Need for Speed: ProStreet
 Need for Speed: Undercover
 Need for Speed: Underground
 Netowaku Netoraru Karemachi Kanojo
 Never Alone
-Neverwinter Nights
 Neverwinter Nights II
 Next Life
 NHL 2001
@@ -823,6 +828,7 @@ Outpost 2: Divided Destiny
 OutRun 2006: Coast 2 Coast
 Owlboy
 Oxenfree
+Oxygen Not Included
 Pac-Man
 Pac-Man Championship Edition DX+
 Pac-Man: Adventures in Time
@@ -896,6 +902,7 @@ Proun
 Pulsen
 PURE
 Puzzle Agent
+Puzzle Agent 2
 Puzzle Kingdoms
 Puzzle Quest
 Pyroblazer
@@ -935,6 +942,7 @@ Resident Evil: Revelations
 Retro Granny's Garden
 Return to Mysterious Island
 Return to Mysterious Island 2
+Reus
 Rewrite
 rFactor
 rFactor 2
@@ -961,9 +969,9 @@ Rocko Quest
 Rogue Legacy
 Rogue Warrior
 Rollcage
-Roller Coaster Tycoon Deluxe
 Rollercoaster Tycoon 2
 Rollercoaster Tycoon 3
+RollerCoaster Tycoon Deluxe
 Roma Victor
 Rottatouille
 Royal Bounty HD
@@ -979,6 +987,7 @@ Sacred
 Sacred 2 - Fallen Angel
 Sacrifice
 Saga
+Sailaway - The Sailing Simulator
 Saint Seiya Soldiers Soul
 Saints Row 2
 Salt And Sanctuary
@@ -1047,6 +1056,7 @@ Sid Meier's Civilization V
 Silent Hill 2
 Silent Hill 3
 Silent Hill 4: The Room
+Silent Hill: Homecoming
 Silent Hunter 5
 Silverfall
 Sim Tower
@@ -1111,7 +1121,6 @@ SpyParty
 Stand O'Food
 Star Chamber
 Star Trek Legacy
-Star Trek Online
 Star Trek: New Worlds
 Star Trek: Starfleet Command II: Orion Pirates
 Star Trek: Starship Creator
@@ -1132,6 +1141,7 @@ Stardew Valley
 StarDrive
 Stargate Resistance
 Starpoint Gemini
+Starpoint Gemini 2
 Starscape
 Starsiege
 Startopia
@@ -1185,6 +1195,7 @@ Tales of Monkey Island: Chapter 1 - Launch of the Screaming Narwhal
 Tales of Monkey Island: Chapter 3 - Lair of the Leviathan
 Tales of Monkey Island: Chapter 4 - The Trial and Execution of Guybrush Threepwood
 Tales of Monkey Island: Chapter 5 - Rise of the Pirate God
+Tales of Symphonia
 Taz Wanted
 Tears to Tiara
 Teenage Mutant Ninja Turtles
@@ -1205,6 +1216,7 @@ The Ball
 The Banner Saga 2
 The Bard's Tale
 The Beast Within: A Gabriel Knight Mystery
+The Bureau: XCOM Declassified
 The Chronicles of Narnia Chapter 2 Prince Caspian
 The Chronicles of Narnia: The Lion, The Witch and the Wardrobe
 The Chronicles of Riddick - Assault on Dark Athena
@@ -1218,6 +1230,7 @@ The escapist
 The Fairly OddParents: Breakin' Da Rules!
 The Fall - Last Days of Gaia
 The Fifth Element
+The Flame in the Flood
 The Godfather II
 The Golden Horde
 The Greatest Inventions of the Sexy Era!
@@ -1250,7 +1263,6 @@ The Settlers 7
 The Settlers II: 10th Anniversary
 The Settlers IV
 The Settlers: Heritage of Kings
-The Sims
 The Sims 3
 The Sims 4
 The Sinking Island
@@ -1296,6 +1308,7 @@ Tom Clancy's Splinter Cell: Pandora Tomorrow
 Tomb Raider III: Adventures of Lara Croft
 Tomoyo After ~It's a Wonderful Life~
 Tonka SearchandRescue2
+Tony Hawk's Pro Skater HD
 Tony Tough and the night of the Roasted Moths
 Torchlight II
 Torino 2006
@@ -1315,9 +1328,11 @@ Tradewinds Legends
 Train Simulator
 Trainz
 Transformers Devastation
+Transformers: Fall of Cybertron
 Transformers: War for Cybertron
 Trapped Dead
 Tree of Savior
+Tribes 2
 Trine 2
 Tron 20
 Tropico
@@ -1325,6 +1340,7 @@ Tropico 3
 Tropico 3: Absolute Power
 Tropico 4
 Tsukihime
+Twilight Struggle
 Two Worlds
 Two Worlds II
 UFO Extraterrestrials
@@ -1345,6 +1361,7 @@ Utimate vs capcom 3
 VG Max
 Valdis Story
 Vampire: The Masquerade - Bloodlines
+Vampire: The Masquerade: Redemption
 Velvet Assassin
 Venetica
 Venice Deluxe
@@ -1366,6 +1383,7 @@ Warcraft III
 Wargame: European Escalation
 Warhammer 40,000: Dawn of War
 Warhammer 40,000: Dawn of War II
+Warhammer: End Times - Vermintide
 Warlords III: Darklords Rising
 Warlords: Battlecry II
 Warp

@@ -21,7 +21,7 @@ def Canonicalize(s):
 
 print("Getting gold list... ",)
 if (not os.path.isfile("gold.txt")):
-	os.system("python3 winehqextract.py -g > gold.txt")
+	os.system(sys.executable + " winehqextract.py -g > gold.txt")
 	print("\tDone!")
 else:
 	print("\tUsing already found file! If you wish to recover again, rename or delete gold.txt")
@@ -35,7 +35,7 @@ with open("gold.txt", 'r') as myfile:
 
 print("Getting platinum list... ",)
 if (not os.path.isfile("platinum.txt")):
-	os.system("python3 winehqextract.py -p > platinum.txt")
+	os.system(sys.executable + " winehqextract.py -p > platinum.txt")
 	print("\tDone!")
 else:
 	print("\tUsing already found file! If you wish to recover again, rename or delete platinum.txt")
@@ -49,7 +49,7 @@ with open("platinum.txt", 'r') as myfile:
 
 print("Getting list of your steam games... ",)
 if (not os.path.isfile("steamgames.txt")):
-	os.system("python3 steamextract.py MySteamGames.html > steamgames.txt")
+	os.system(sys.executable + " steamextract.py MySteamGames.html > steamgames.txt")
 	print("\tDone!")
 else:
 	print("\tUsing already found file! If you wish to recover again, rename or delete steamgames.txt")

@@ -29,6 +29,7 @@ Agatha Christie - And Then There Were None
 Agatha Christie - Evil Under the Sun
 Age of Decadence
 Age of Empires
+Age Of Empires II: HD Edition
 Age of Mythology
 Age of Wonders: Shadow Magic
 AI War: Fleet Command
@@ -55,7 +56,6 @@ Alter Ego
 Altitude
 Always Sometimes Monsters
 American Girl: Kit - A Treehouse of My Own
-American McGee's Alice
 American McGee's Grimm
 American Truck Simulator
 Amerzone
@@ -309,6 +309,7 @@ Crusader Kings II
 Crypt of the NecroDancer
 Crysis
 Crysis 2
+Crystalline
 CSI: Deadly intent
 CSI: NY
 Cubemen
@@ -363,7 +364,6 @@ Desperados 2: Cooper's Revenge
 Devils and Demons
 DEX
 Diablo II
-Diablo III
 Die Gilde  -Gold Edition-
 Die internationale Raumstation - 3-D Space Station Simulator
 Die Völker 2
@@ -413,6 +413,8 @@ Dune 2000
 Dungeon Defenders
 Dungeon Keeper 2
 Dungeon of the Endless
+Dungeon Siege
+Dungeon Siege II
 Dungeon Siege III
 Dungeons and Dragons NeverWinter
 Dungeons and Dragons: Dragonshard
@@ -440,7 +442,6 @@ Environmental Station Alpha
 Euro Truck Simulator
 Euro Truck Simulator 2
 EVE Online
-EverQuest
 Eversion
 Everyday Genius: SquareLogic
 Everyday Shooter
@@ -465,7 +466,6 @@ Fahrenheit
 Fallout
 Fallout 2
 Fallout 3
-Fallout: New Vegas
 Fantasy Grounds
 Fantasy Wars
 Far Cry
@@ -548,7 +548,6 @@ Gigolo
 Gish
 Gomo
 Gothic 3
-Gothic II
 Governor of Poker
 Grand Ages: Rome
 Grand Theft Auto: San Andreas
@@ -642,7 +641,6 @@ Icewind Dale
 Icewind Dale II
 IGT Slots and MultiPlay Video Poker
 Ikinari Anata ni Koishiteiru
-IL-2 Sturmovik Series
 Imperial Glory
 Imperialism
 Imperium Civitas
@@ -1230,6 +1228,7 @@ Sword of the Stars
 Sword of the Stars: The Pit
 Swords and Soldiers HD
 Syberia II
+Syberia3
 Syndicate
 System Protocol One
 System Shock 2
@@ -1307,7 +1306,6 @@ The Ultimate Doom
 The Vanishing of Ethan Carter
 The Walking Dead
 The Walking Dead: Michonne
-The Witcher
 Theatre of War
 Theme Hospital
 Thief: The Dark Project
@@ -1358,6 +1356,7 @@ Trans-con
 TransOcean: The Shipping Company
 Transport Giant
 Transport Tycoon
+Trapped Dead
 Trauma
 Trials 2: Second edition
 Trine
