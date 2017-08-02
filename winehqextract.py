@@ -69,7 +69,9 @@ def GetWineHqList(ratingsList):
 		"sonlyDownloadableData": "false"
 		}
 
-	getpluspost = {**getparams,**postparams}
+	#getpluspost = {**getparams,**postparams}
+	getpluspost = dict(getparams)
+	getplustpost.update(postparams)
 	
 	Games = {}
 	for rating in RatingsList:
