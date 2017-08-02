@@ -21,6 +21,7 @@ AER
 AI War
 AI War: Fleet Command
 Aarklash: Legacy
+Absolver
 Act of War
 Advent Rising
 Aen Wake
@@ -129,6 +130,8 @@ Banished
 Barony: Cursed Edition
 Bastion
 Batman - The Telltale Series
+Batman: The Enemy Within - The Telltale Series
+Battle Brothers
 Battle Chasers: Nightwar
 Battle Chess
 Battle Isle Platinum
@@ -231,6 +234,7 @@ Chantelise - A Tale of Two Sisters
 Chaos Overlords
 Chaos Reborn
 Chaser
+Children of Zodiarcs
 Children of the Nile
 Chroma Squad
 Chronology
@@ -398,7 +402,7 @@ Dragonsphere
 Dream
 Dream Pinball 3D
 Dreambreak
-Dreamfall Chapters
+Dreamfall Chapters: The Final Cut
 Dreamfall: The Longest Journey
 Driftmoon
 Driver: Parallel Lines
@@ -555,6 +559,7 @@ Galactic Civilizations I
 Galactic Civilizations II
 Galactic Civilizations III
 Galactic Civilizations III: Crusade Expansion Pack
+Galaxy of Pen and Paper
 Game of Thrones: A Telltale Games Series
 Gangland
 Gangsters: Organized Crime
@@ -643,6 +648,7 @@ Hind
 Hitman 2: Silent Assassin
 Hitman 3: Contracts
 Hitman: Codename 47
+Hob
 Hocus Pocus
 Hogs of War
 Hollow Knight
@@ -678,6 +684,7 @@ Icewind Dale
 Icewind Dale 2
 Iconoclasts
 Ignition
+Immortal Planet
 Imperial Glory
 Imperialism
 Imperialism 2: The Age of Exploration
@@ -724,12 +731,14 @@ Jagged Alliance 2: Unfinished Business
 Jagged Alliance 2: Wildfire
 Jagged Alliance: Deadly Games
 Jazzpunk
+Jazzpunk: Flavour Nexus
 Jotun: Valhalla Edition
 Journey of a Roach
 Journey to the Center of the Earth
 Judge Dredd: Dredd vs Death
 KING OF THE MONSTERS
 Kathy Rain
+Ken Follett's The Pillars of the Earth
 Kenshi
 Kentucky Route Zero
 Kerbal Space Program
@@ -752,6 +761,7 @@ Kingdom: New Lands
 Kingdom: The Far Reaches
 Kingdoms and Castles
 Kingpin: Life of Crime
+Kingsway
 Knights and Merchants: The Peasants Rebellion
 Knights of Pen and Paper +1 Deluxier Edition
 Knights of Pen and Paper +1 Edition
@@ -828,6 +838,7 @@ METAL SLUG X
 MIND: Path to Thalamus
 MX vs ATV Unleashed
 Machinarium
+Mages of Mystralia
 Magic Carpet 2: The Netherworlds
 Magic Carpet Plus
 Magicmaker
@@ -1387,6 +1398,9 @@ Subject 13
 Sublevel Zero Redux
 Subterrain
 Subwar 2050
+Sudden Strike
+Sudden Strike 2
+Sudden Strike 3
 Sudden Strike 4
 Sudeki
 Summoner
@@ -1434,6 +1448,7 @@ Tales of Maj'Eyal
 Tales of Maj'Eyal: Ashes of Urh'Rok
 Tales of Maj'Eyal: Embers of Rage
 Tales of Monkey Island
+Tangledeep
 Technobabylon
 Teenagent
 Telepath Tactics
@@ -1473,10 +1488,12 @@ The Book of Unwritten Tales 2 Almanac Edition
 The Cat Lady
 The Chaos Engine
 The Colonel's Bequest
+The Coma: Recut
 The Consortium
 The Curious Expedition
 The Dagger of Amon Ra
 The Dark Eye: Chains of Satinav
+The Darkside Detective
 The Deadly Tower of Monsters
 The Dig
 The Dwarves
@@ -1520,6 +1537,7 @@ The Last Tinker: City of Colors
 The Legend of Heroes: Trails in the Sky
 The Legend of Heroes: Trails in the Sky SC
 The Legend of Heroes: Trails in the Sky the 3rd
+The Legend of Heroes: Trails of Cold Steel
 The Legend of Kyrandia
 The Legend of Kyrandia: Hand of Fate
 The Legend of Kyrandia: Malcolm's Revenge
