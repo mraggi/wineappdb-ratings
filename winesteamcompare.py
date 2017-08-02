@@ -56,6 +56,8 @@ else:
 
 
 
+# dict of games
+mygames = {}
 
 with open("steamgames.txt", 'r') as myfile:
 		txt = myfile.read()
@@ -70,4 +72,13 @@ with open("steamgames.txt", 'r') as myfile:
 			if (cg in Games):
 				print("\t",game,"...", Games[cg])
 				numwine += 1
-		print("\nFinished! You could play", numwine, "games in wine!")
+				mygames[game] = Games[cg]
+
+# Write a list of games 
+with open("results.tsv", 'w') as results:
+		for k,v in mygames.items():
+			results.write("{0}\t{1}\n".format(k,v))
+        
+print("\nFinished! You could play", numwine, "games in wine!")
+                
+		
